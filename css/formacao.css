@@ -148,14 +148,18 @@
 
 }
 
-.tecno-texto{
-    font-size: 1.5rem;
-    line-height: 1.33;
-    max-width: 50ch;
-    margin-bottom: 20px;
-    color: #a3a3a3;
-}
 
+
+@media (max-width: 1200px){
+    .teste2{
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+    }
+    .teste{
+        width: 300px;
+    }
+}
 
 @media (max-width: 800px){
     .formacao-container{
@@ -176,17 +180,10 @@
     .formacao-extra h3::before{
         position: initial;
         margin-bottom: 10px;
+    }  
+}
+@media (max-width: 400px){
+    .teste{
+        width: 250px;
     }
-    .tecn{
-        font-size: 26px;
-    }
-    .tipo{
-        font-size: 22px;
-        padding-bottom: 10px;
-    }
-    .tecno-texto{
-        font-size: 1.2rem;
-
-    }
-    
 }
