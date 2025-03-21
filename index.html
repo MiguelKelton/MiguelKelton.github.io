@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miguel Kelton</title>
-    <meta name="description" content="Estudande de Análise e   Desenvolvimento<br> de Sistemas">
+    <meta name="description" content="Estudande de programação">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,9 @@
         <a href="#"  class="logo">Miguel Kelton</a>
         <nav>
             <ul class="header-menu">
-                <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#experiencia" class="nav-link">Projetos</a></li>
                 <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
                 <li class="nav-item"><a href="#contato" class="nav-link"> Contato</a></li>
             </ul>
@@ -31,15 +33,69 @@
         </div>
     </main>
 
+
+    <section class="sobre" id="sobre" aria-label="Sobre">
+        <div class="formacao-container">
+            <h2 class="subtitulo">sobre</h2>
+
+            <div>
+                <h3 class="tipo">Sobre</h3>
+                <p class="formacao-texto">
+                    Desde cedo, encontrei na programação uma maneira de explorar minha curiosidade e
+                     criar soluções que fazem a diferença. Sempre fui fascinado por tecnologia e 
+                     pela forma como ela pode transformar ideias em realidade </br></br>
+                     Minha jornada na área começou com o curso técnico em Desenvolvimento de Sistemas pela ETEC Dr. Júlio Cardoso, onde adquiri uma base sólida em lógica de programação, estrutura de dados e desenvolvimento web. Essa experiência consolidou minha paixão pela programação e me motivou a buscar ainda mais conhecimento. Atualmente, estou no 4º período da graduação em Análise e Desenvolvimento de Sistemas na FATEC Franca, onde continuo aprimorando minhas habilidades em desenvolvimento front-end e back-end, além de explorar novas tecnologias e metodologias.
+                </p>
+               
+    </section>
+
+    <div class="container_tecn">
+        <h2 class="tecn">Tecnologias:</h2>
+        <div class="teste2">
+        <div class="teste">
+        <h3 class="tipo">Linguagens:</h3>
+        <ul>
+            <li><span>-</span> HTML</li>
+            <li><span>-</span> CSS</li>
+            <li><span>-</span> JavaScript</li>
+            <li><span>-</span> TypeScript</li>
+            <li><span>-</span> Java</li>
+            <li><span>-</span> Python</li>
+            
+        </ul>
+        </div>
+
+        <div class="teste">
+
+            <h3 class="tipo">Frameworks e Bibliotecas:</h3>
+            <ul>
+                <li><span>-</span> React</li>
+                <li><span>-</span> Node.js</li>
+            </ul>
+            </div>
+
+            <div class="teste">
+
+                <h3 class="tipo">Controle de Versão:</h3>
+                <ul>
+                    <li><span>-</span> Git</li>
+                    <li><span>-</span> GitHub</li>
+                </ul>
+                </div>
+            </div>     
+
+    </div> 
+
     <section class="experiencia" id="experiencia" aria-label="Experiência">
-        <h2 class="subtitulo">Experiência</h2>
+        <h2 class="subtitulo">Projetos</h2>
         <div>
+            <h1>SOBRE:</h1>
             <p class="experiencia-texto">Desenvolvo projetos pessoais para tornar o dia a dia mais prático e eficiente.
             Além disso, crio soluções para pequenas empresas, unindo aprendizado e experiência real. 
             Atualmente, estou no 4º período da faculdade de Análise e Desenvolvimento de Sistemas (ADS) 
             e sigo aprimorando minhas habilidades para me tornar um desenvolvedor completo.
            </p>
-           <h1 style="margin-bottom: 20px;">Projetos:</h1>
+           <h1 class="titulo_projetos">Projetos:</h1>
 
            <a href="https://miguelkelton.github.io/MiguelKelton.github.io-GuiaProgramacao/">
             <div class="empresa">
@@ -94,6 +150,8 @@
         </div>
     </section>
 
+
+    
     <section class="formacao" id="formacao" aria-label="Formação">
         <div class="formacao-container">
             <h2 class="subtitulo">Formação</h2>
@@ -133,7 +191,7 @@
                     <div class="idiomas">
                         <h3>Idiomas</h3>
                         <ul>
-                            <li>Ingles <span>/ Básico</span></li>
+                            <li>Ingles <span>/ Intermediário</span></li>
                         </ul>
                     </div>
 
@@ -149,15 +207,26 @@
             <p class="footer-texto">Estou disponível para novos projetos no momento. 
             Entre em contato comigo e marcamos uma conversa</p>
             <ul class="footer-contato">
-                <li>miguelkeltonrocha04@gmail.com</li>
-                <li>+55 16 98115-1426</li>
-                <li><a href="https:linkedin.com/in/miguel-kelton-">LinkedIn</a></li>
+                <a href="mailto:miguelkeltonrocha04@gmail.com">
+                <li  class="contato" ><img src="./img/email_svg.svg" alt=""> miguelkeltonrocha04@gmail.com</li>
+                </a>
+
+                <a href="https://wa.me/5516981151426">
+                <li class="contato"><img src="./img/numero_svg.svg" alt=""> +55 16 98115-1426</li>
+                </a>
+                <a href="https:linkedin.com/in/miguel-kelton-">
+                <li class="contato"><img src="./img/link_svg.svg" alt=""> LinkedIn</li>
+                </a>
+                <a href="https://github.com/MiguelKelton">
+                <li class="contato"><img src="./img/github_svg.svg" alt="">GitHub</li>
+                </a>
+
             </ul> 
             <p class="footer-copy">Miguel Kelton. Alguns direitos reservados. </p>
 
         </div>
 
     </footer>
-
+    <script src="./script.js"></script>
 </body>
 </html>
