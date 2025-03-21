@@ -1,3 +1,6 @@
+.lista_projetos{
+    padding-bottom: 400px;
+}
 .projetos h1{
     font-size: 60px;
     padding-top: 80px;
@@ -15,8 +18,12 @@
     width: 800px;
 }
 
+.titulo_projetos{
+    margin-bottom: 20px;
+}
+
 .ver{
-    color: #525252;
+    color: #dddddd;
     font-size: 25px;
     width: 100px;
     transition: background-color 0.3s ease-in-out;
@@ -24,9 +31,31 @@
 .ver:hover{
     font-size: 26px;
     border-bottom: 2px solid #67dd0a;
-    color: #242424;
+    color: #ffffff;
 
 }
+
+.projeto-titulo{
+    font-size: 40px;
+    padding: 10px;
+}
+.projeto-subtitulo{
+    font-size: 25px;
+    padding: 10px;
+}
+.projeto_texto{
+    font-size: 18px;
+    max-width: 55ch;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
 @media (max-width: 800px){
     .lista_projetos{
         width: 600px;
